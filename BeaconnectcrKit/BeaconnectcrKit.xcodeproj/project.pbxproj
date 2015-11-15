@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59D705FD1BF8C7EF005AD60B /* BeaconnectcrKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 59D705FC1BF8C7EF005AD60B /* BeaconnectcrKit.h */; };
+		59D706061BF8CBDC005AD60B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D706051BF8CBDC005AD60B /* UIKit.framework */; };
+		59D706081BF8CC2C005AD60B /* BeaconnectcrKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D705FC1BF8C7EF005AD60B /* BeaconnectcrKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59D706101BF8CC6E005AD60B /* RWKnobControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D7060A1BF8CC6E005AD60B /* RWKnobControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59D706111BF8CC6E005AD60B /* RWKnobControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D7060B1BF8CC6E005AD60B /* RWKnobControl.m */; };
+		59D706121BF8CC6E005AD60B /* RWKnobRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D7060C1BF8CC6E005AD60B /* RWKnobRenderer.h */; };
+		59D706131BF8CC6E005AD60B /* RWKnobRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D7060D1BF8CC6E005AD60B /* RWKnobRenderer.m */; };
+		59D706141BF8CC6E005AD60B /* RWRotationGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D7060E1BF8CC6E005AD60B /* RWRotationGestureRecognizer.h */; };
+		59D706151BF8CC6E005AD60B /* RWRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D7060F1BF8CC6E005AD60B /* RWRotationGestureRecognizer.m */; };
+		59D7066A1BF8D429005AD60B /* BCUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D706681BF8D429005AD60B /* BCUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59D7066B1BF8D429005AD60B /* BCUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D706691BF8D429005AD60B /* BCUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		59D705F71BF8C7EF005AD60B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				59D705FD1BF8C7EF005AD60B /* BeaconnectcrKit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		59D705F91BF8C7EF005AD60B /* libBeaconnectcrKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBeaconnectcrKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		59D705FC1BF8C7EF005AD60B /* BeaconnectcrKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeaconnectcrKit.h; sourceTree = "<group>"; };
+		59D706051BF8CBDC005AD60B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		59D7060A1BF8CC6E005AD60B /* RWKnobControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWKnobControl.h; sourceTree = "<group>"; };
+		59D7060B1BF8CC6E005AD60B /* RWKnobControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWKnobControl.m; sourceTree = "<group>"; };
+		59D7060C1BF8CC6E005AD60B /* RWKnobRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWKnobRenderer.h; sourceTree = "<group>"; };
+		59D7060D1BF8CC6E005AD60B /* RWKnobRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWKnobRenderer.m; sourceTree = "<group>"; };
+		59D7060E1BF8CC6E005AD60B /* RWRotationGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWRotationGestureRecognizer.h; sourceTree = "<group>"; };
+		59D7060F1BF8CC6E005AD60B /* RWRotationGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWRotationGestureRecognizer.m; sourceTree = "<group>"; };
+		59D706681BF8D429005AD60B /* BCUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCUtils.h; sourceTree = "<group>"; };
+		59D706691BF8D429005AD60B /* BCUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59D705F61BF8C7EF005AD60B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59D706061BF8CBDC005AD60B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59D705F01BF8C7EF005AD60B = {
+			isa = PBXGroup;
+			children = (
+				59D706051BF8CBDC005AD60B /* UIKit.framework */,
+				59D705FB1BF8C7EF005AD60B /* BeaconnectcrKit */,
+				59D705FA1BF8C7EF005AD60B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59D705FA1BF8C7EF005AD60B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59D705F91BF8C7EF005AD60B /* libBeaconnectcrKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59D705FB1BF8C7EF005AD60B /* BeaconnectcrKit */ = {
+			isa = PBXGroup;
+			children = (
+				59D706091BF8CC6E005AD60B /* RWKnobControl */,
+				59D705FC1BF8C7EF005AD60B /* BeaconnectcrKit.h */,
+				59D706681BF8D429005AD60B /* BCUtils.h */,
+				59D706691BF8D429005AD60B /* BCUtils.m */,
+			);
+			path = BeaconnectcrKit;
+			sourceTree = "<group>";
+		};
+		59D706091BF8CC6E005AD60B /* RWKnobControl */ = {
+			isa = PBXGroup;
+			children = (
+				59D7060A1BF8CC6E005AD60B /* RWKnobControl.h */,
+				59D7060B1BF8CC6E005AD60B /* RWKnobControl.m */,
+				59D7060C1BF8CC6E005AD60B /* RWKnobRenderer.h */,
+				59D7060D1BF8CC6E005AD60B /* RWKnobRenderer.m */,
+				59D7060E1BF8CC6E005AD60B /* RWRotationGestureRecognizer.h */,
+				59D7060F1BF8CC6E005AD60B /* RWRotationGestureRecognizer.m */,
+			);
+			path = RWKnobControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		59D706071BF8CC16005AD60B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59D7066A1BF8D429005AD60B /* BCUtils.h in Headers */,
+				59D706081BF8CC2C005AD60B /* BeaconnectcrKit.h in Headers */,
+				59D706101BF8CC6E005AD60B /* RWKnobControl.h in Headers */,
+				59D706121BF8CC6E005AD60B /* RWKnobRenderer.h in Headers */,
+				59D706141BF8CC6E005AD60B /* RWRotationGestureRecognizer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		59D705F81BF8C7EF005AD60B /* BeaconnectcrKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59D706021BF8C7EF005AD60B /* Build configuration list for PBXNativeTarget "BeaconnectcrKit" */;
+			buildPhases = (
+				59D705F51BF8C7EF005AD60B /* Sources */,
+				59D705F61BF8C7EF005AD60B /* Frameworks */,
+				59D705F71BF8C7EF005AD60B /* CopyFiles */,
+				59D706071BF8CC16005AD60B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeaconnectcrKit;
+			productName = BeaconnectcrKit;
+			productReference = 59D705F91BF8C7EF005AD60B /* libBeaconnectcrKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59D705F11BF8C7EF005AD60B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = movilmultimedia;
+				TargetAttributes = {
+					59D705F81BF8C7EF005AD60B = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 59D705F41BF8C7EF005AD60B /* Build configuration list for PBXProject "BeaconnectcrKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 59D705F01BF8C7EF005AD60B;
+			productRefGroup = 59D705FA1BF8C7EF005AD60B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59D705F81BF8C7EF005AD60B /* BeaconnectcrKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59D705F51BF8C7EF005AD60B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59D706111BF8CC6E005AD60B /* RWKnobControl.m in Sources */,
+				59D706151BF8CC6E005AD60B /* RWRotationGestureRecognizer.m in Sources */,
+				59D7066B1BF8D429005AD60B /* BCUtils.m in Sources */,
+				59D706131BF8CC6E005AD60B /* RWKnobRenderer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		59D706001BF8C7EF005AD60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		59D706011BF8C7EF005AD60B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59D706031BF8C7EF005AD60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		59D706041BF8C7EF005AD60B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59D705F41BF8C7EF005AD60B /* Build configuration list for PBXProject "BeaconnectcrKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59D706001BF8C7EF005AD60B /* Debug */,
+				59D706011BF8C7EF005AD60B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59D706021BF8C7EF005AD60B /* Build configuration list for PBXNativeTarget "BeaconnectcrKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59D706031BF8C7EF005AD60B /* Debug */,
+				59D706041BF8C7EF005AD60B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59D705F11BF8C7EF005AD60B /* Project object */;
+}
