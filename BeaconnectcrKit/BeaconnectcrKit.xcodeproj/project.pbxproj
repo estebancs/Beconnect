@@ -25,12 +25,6 @@
 		59D705FD1BF8C7EF005AD60B /* BeaconnectcrKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 59D705FC1BF8C7EF005AD60B /* BeaconnectcrKit.h */; };
 		59D706061BF8CBDC005AD60B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D706051BF8CBDC005AD60B /* UIKit.framework */; };
 		59D706081BF8CC2C005AD60B /* BeaconnectcrKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D705FC1BF8C7EF005AD60B /* BeaconnectcrKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59D706101BF8CC6E005AD60B /* RWKnobControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D7060A1BF8CC6E005AD60B /* RWKnobControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59D706111BF8CC6E005AD60B /* RWKnobControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D7060B1BF8CC6E005AD60B /* RWKnobControl.m */; };
-		59D706121BF8CC6E005AD60B /* RWKnobRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D7060C1BF8CC6E005AD60B /* RWKnobRenderer.h */; };
-		59D706131BF8CC6E005AD60B /* RWKnobRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D7060D1BF8CC6E005AD60B /* RWKnobRenderer.m */; };
-		59D706141BF8CC6E005AD60B /* RWRotationGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D7060E1BF8CC6E005AD60B /* RWRotationGestureRecognizer.h */; };
-		59D706151BF8CC6E005AD60B /* RWRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D7060F1BF8CC6E005AD60B /* RWRotationGestureRecognizer.m */; };
 		59D7066A1BF8D429005AD60B /* BCUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D706681BF8D429005AD60B /* BCUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59D7066B1BF8D429005AD60B /* BCUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D706691BF8D429005AD60B /* BCUtils.m */; };
 /* End PBXBuildFile section */
@@ -62,12 +56,6 @@
 		59D705F91BF8C7EF005AD60B /* libBeaconnectcrKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBeaconnectcrKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		59D705FC1BF8C7EF005AD60B /* BeaconnectcrKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeaconnectcrKit.h; sourceTree = "<group>"; };
 		59D706051BF8CBDC005AD60B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		59D7060A1BF8CC6E005AD60B /* RWKnobControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWKnobControl.h; sourceTree = "<group>"; };
-		59D7060B1BF8CC6E005AD60B /* RWKnobControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWKnobControl.m; sourceTree = "<group>"; };
-		59D7060C1BF8CC6E005AD60B /* RWKnobRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWKnobRenderer.h; sourceTree = "<group>"; };
-		59D7060D1BF8CC6E005AD60B /* RWKnobRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWKnobRenderer.m; sourceTree = "<group>"; };
-		59D7060E1BF8CC6E005AD60B /* RWRotationGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWRotationGestureRecognizer.h; sourceTree = "<group>"; };
-		59D7060F1BF8CC6E005AD60B /* RWRotationGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWRotationGestureRecognizer.m; sourceTree = "<group>"; };
 		59D706681BF8D429005AD60B /* BCUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCUtils.h; sourceTree = "<group>"; };
 		59D706691BF8D429005AD60B /* BCUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,25 +92,11 @@
 		59D705FB1BF8C7EF005AD60B /* BeaconnectcrKit */ = {
 			isa = PBXGroup;
 			children = (
-				59D706091BF8CC6E005AD60B /* RWKnobControl */,
 				59D705FC1BF8C7EF005AD60B /* BeaconnectcrKit.h */,
 				59D706681BF8D429005AD60B /* BCUtils.h */,
 				59D706691BF8D429005AD60B /* BCUtils.m */,
 			);
 			path = BeaconnectcrKit;
-			sourceTree = "<group>";
-		};
-		59D706091BF8CC6E005AD60B /* RWKnobControl */ = {
-			isa = PBXGroup;
-			children = (
-				59D7060A1BF8CC6E005AD60B /* RWKnobControl.h */,
-				59D7060B1BF8CC6E005AD60B /* RWKnobControl.m */,
-				59D7060C1BF8CC6E005AD60B /* RWKnobRenderer.h */,
-				59D7060D1BF8CC6E005AD60B /* RWKnobRenderer.m */,
-				59D7060E1BF8CC6E005AD60B /* RWRotationGestureRecognizer.h */,
-				59D7060F1BF8CC6E005AD60B /* RWRotationGestureRecognizer.m */,
-			);
-			path = RWKnobControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +108,6 @@
 			files = (
 				59D7066A1BF8D429005AD60B /* BCUtils.h in Headers */,
 				59D706081BF8CC2C005AD60B /* BeaconnectcrKit.h in Headers */,
-				59D706101BF8CC6E005AD60B /* RWKnobControl.h in Headers */,
-				59D706121BF8CC6E005AD60B /* RWKnobRenderer.h in Headers */,
-				59D706141BF8CC6E005AD60B /* RWRotationGestureRecognizer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,10 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59D706111BF8CC6E005AD60B /* RWKnobControl.m in Sources */,
-				59D706151BF8CC6E005AD60B /* RWRotationGestureRecognizer.m in Sources */,
 				59D7066B1BF8D429005AD60B /* BCUtils.m in Sources */,
-				59D706131BF8CC6E005AD60B /* RWKnobRenderer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

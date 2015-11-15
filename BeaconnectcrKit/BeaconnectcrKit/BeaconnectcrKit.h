@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <BeaconnectcrKit/RWKnobControl.h>
 #import <BeaconnectcrKit/BCUtils.h>
 
 /*@interface BeaconnectcrKit : NSObject
