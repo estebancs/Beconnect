@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		599106401BF9407300D6B58B /* BeaconnectcrKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5991063F1BF9407300D6B58B /* BeaconnectcrKit.framework */; };
+		5991064F1BF95EF200D6B58B /* BeaconnectcrKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5991064E1BF95EF200D6B58B /* BeaconnectcrKit.framework */; };
 		59D706861BF92CD0005AD60B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D706851BF92CD0005AD60B /* main.m */; };
 		59D706891BF92CD0005AD60B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D706881BF92CD0005AD60B /* AppDelegate.m */; };
 		59D7068C1BF92CD0005AD60B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D7068B1BF92CD0005AD60B /* ViewController.m */; };
@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5991063F1BF9407300D6B58B /* BeaconnectcrKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BeaconnectcrKit.framework; sourceTree = "<group>"; };
+		5991064E1BF95EF200D6B58B /* BeaconnectcrKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BeaconnectcrKit.framework; sourceTree = "<group>"; };
 		59D706811BF92CD0005AD60B /* TestingFrameworkObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingFrameworkObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59D706851BF92CD0005AD60B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		59D706871BF92CD0005AD60B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				599106401BF9407300D6B58B /* BeaconnectcrKit.framework in Frameworks */,
+				5991064F1BF95EF200D6B58B /* BeaconnectcrKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +147,7 @@
 		59D706B71BF92CFE005AD60B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5991063F1BF9407300D6B58B /* BeaconnectcrKit.framework */,
+				5991064E1BF95EF200D6B58B /* BeaconnectcrKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

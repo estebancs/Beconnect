@@ -11,7 +11,7 @@
 #import "AppDelegate.h"
 
 @interface ViewController () <UIWebViewDelegate>
-
+@property (nonatomic,strong) UIViewController *webViewController;
 @end
 
 @implementation ViewController
@@ -20,21 +20,23 @@
   [super viewDidLoad];
   self.view.backgroundColor = [UIColor redColor];
   
-  // Sending a local notification
-  UILocalNotification* localNotification = [[UILocalNotification alloc] init];
-  localNotification.fireDate = [NSDate dateWithTimeIntervalSinceNow:20];
-  localNotification.alertBody = @"Promo en tienda";
-  localNotification.userInfo = @{ @"urlToLoad" : @"https://www.google.com/"};
-  localNotification.timeZone = [NSTimeZone defaultTimeZone];
-  [[UIApplication sharedApplication] scheduleLocalNotification:localNotification];
+  AppDelegate *appdelegate = (AppDelegate*)[UIApplication sharedApplication].delegate;
+  if (!appdelegate.localNotificationReceived) {
+    // Sending a local notification
+    [BCUtils sendLocalNotificationWithMessage:@"Promo en tienda" fireDateSinceNow:10 url:@"https://www.google.com/" timeZone:[NSTimeZone defaultTimeZone] inApplication:[UIApplication sharedApplication]];
+  }
   
+  // Do any additional setup after loading the view, typically from a nib.
+}
+
+
+- (void)viewDidAppear:(BOOL)animated{
+  [super viewDidAppear:animated];
   AppDelegate *appdelegate = (AppDelegate*)[UIApplication sharedApplication].delegate;
   if (appdelegate.localNotificationReceived) {
     [self showLocalNotification:appdelegate.localNotificationReceived];
     appdelegate.localNotificationReceived = nil;
   }
-  
-  // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {
@@ -43,7 +45,19 @@
 }
 
 - (void)showLocalNotification:(UILocalNotification*)localNotification{
-  [BCUtils insertWebViewInView: (UIView *)self.view withUrl:localNotification.userInfo[@"urlToLoad"] andWebViewDelegate:self];
+
+  UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+  [button addTarget:self
+             action:@selector(dismissWebViewController:)
+   forControlEvents:UIControlEventTouchUpInside];
+  [button setTitle:@"Cerrar" forState:UIControlStateNormal];
+  button.translatesAutoresizingMaskIntoConstraints = NO;
+  
+  self.webViewController = [BCUtils insertWebViewInViewController:self withUrl:localNotification.userInfo[@"urlToLoad"] withWebViewDelegate:self andCloseButton:button];
+}
+
+- (IBAction)dismissWebViewController:(id)sender{
+  [self.webViewController dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end

@@ -10,6 +10,8 @@
 
 @interface BCUtils : NSObject
 
-+ (void) insertWebViewInView: (UIView *)view withUrl:(NSString*)urlString andWebViewDelegate:(id<UIWebViewDelegate>) delegate;
++ (UIViewController*) insertWebViewInViewController:(UIViewController *)viewController withUrl:(NSString*)urlString withWebViewDelegate:(id<UIWebViewDelegate>) delegate andCloseButton:(UIButton*)closeButton;
+
++ (void)sendLocalNotificationWithMessage:(NSString*)message fireDateSinceNow:(NSTimeInterval)secs url:(NSString*)url timeZone:(NSTimeZone*)timeZone inApplication:(UIApplication*)application;
 
 @end
